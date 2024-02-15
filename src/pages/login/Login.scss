@@ -1,0 +1,74 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: #dde0e4;
+
+    .loginWrapper {
+        width: 70%;
+        height: 70%;
+        display: flex;
+
+        .loginLeft,
+        .loginRight {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            justify-content: center;
+
+            .logo {
+                font-size: 50px;
+                font-weight: 800;
+                color: #1775ee;
+                margin-bottom: 10px;
+            }
+
+            .desc {
+                font-size: 24px;
+            }
+
+            .loginBox {
+                height: 300px;
+                padding: 20px;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                background: white;
+                justify-content: space-between;
+                .loginInput{
+                    border: 1px solid grey;
+                    font-size: 18px;
+                    padding-left: 20px;
+                }
+                .loginInput:focus{
+                    outline: none;
+                }
+                .loginInput,.loginBtn,.registBtn{
+                    height: 50px;
+                    border-radius: 10px;
+                }
+                .loginBtn{
+                    background: #1775ee;
+                }
+                .registBtn,.loginBtn{
+                    color: white;
+                    border: none;
+                    font-size: 20px;
+                    font-weight: 500;
+                    cursor: pointer;
+                }
+                .forgotText{
+                    text-align: center;
+                    color: #1775ee;
+                }
+                .registBtn{
+                    background-color: #42b72a;
+                    width: 50%;
+                    align-self: center;
+                }
+            }
+        }
+    }
+}
