@@ -5,7 +5,7 @@ import {Search, Person, Chat, Notifications} from '@mui/icons-material'
    return (
      <div className='topbarContainer'>
         <div className="topbarLeft">
-            <span className="logo">AashviSocial</span>
+            <span className="logo">RubySocial</span>
         </div>
         <div className="topbarCenter">
             <div className="searchBar">
