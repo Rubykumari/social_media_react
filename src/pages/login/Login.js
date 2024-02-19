@@ -5,8 +5,8 @@ export const Login = () => {
         <div className='login'>
             <div className="loginWrapper">
                 <div className="loginLeft">
-                    <h3 className="logo">Aashvisocial</h3>
-                    <span className="desc">Coonect with friends and the world around you on Aashvisocial.</span>
+                    <h3 className="logo">Rubysocial</h3>
+                    <span className="desc">Coonect with friends and the world around you on Rubysocial.</span>
                 </div>
                 <div className="loginRight">
                     <div className="loginBox">
